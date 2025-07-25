@@ -24,8 +24,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
-        ref: main
-        path: main
+        ref: repartition-android9
+        path: repartition-android9
 
     - name: patch
       run: |
